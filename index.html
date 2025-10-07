@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,28 +9,50 @@
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Open+Sans&display=swap" rel="stylesheet">
 </head>
 <body>
-  <!-- shared nav / header -->
   <header class="site-header">
     <h1>Linda Capacci</h1>
+    <div class="burger" id="burger">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
     <nav>
       <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="helios.html">Helios</a></li>
         <li><a href="ceramics.html">Ceramics</a></li>
-        <li><a href="charcoal.html">Charcoal</a></li>
         <li><a href="painting.html">Painting</a></li>
+        <li><a href="charcoal.html">Charcoal</a></li>
         <li><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
   </header>
 
-  
+  <section class="hero-video-parallax">
+    <div class="video-container">
+      <video autoplay muted loop playsinline poster="images/backgroundart.jpg">
+        <source src="media/hero-video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+    <div class="parallax-overlay">
+      <div class="content-box">
+        <h2>Organic Artistry in Motion</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</p>
+        <p>Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris.</p>
+        <p>Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.</p>
+        <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+        <p>Curabitur sodales ligula in libero. Sed dignissim lacinia nunc. Curabitur tortor. Pellentesque nibh.</p>
+      </div>
+    </div>
+  </section>
+
   <footer class="site-footer">
     <p>&copy; 2025 Linda Capacci. All rights reserved.</p>
     <p>
-      <a href="https://instagram.com/yourprofile" target="_blank">Instagram</a> |
-      <a href="https://facebook.com/yourprofile" target="_blank">Facebook</a> |
-      <a href="mailto:your@email.com">Email</a>
+      <a href="https://instagram.com" target="_blank">Instagram</a> |
+      <a href="https://facebook.com" target="_blank">Facebook</a> |
+      <a href="mailto:example@example.com">Email</a>
     </p>
   </footer>
 

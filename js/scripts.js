@@ -5,6 +5,12 @@ document.addEventListener("DOMContentLoaded", function () {
   const modalTitle = document.getElementById('modal-title');
   const modalDesc = document.getElementById('modal-description');
   const closeBtn = document.getElementById('close-modal');
+  const burger = document.getElementById('burger');
+  const nav = document.querySelector('nav ul');
+
+  burger.addEventListener('click', () => {
+    nav.classList.toggle('show');
+  });
 
   document.querySelectorAll('.thumb').forEach(thumb => {
     thumb.addEventListener('click', () => {

@@ -11,40 +11,42 @@
 <body>
   <header class="site-header">
     <h1>Linda Capacci</h1>
+    <div class="burger" id="burger">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
     <nav>
       <ul>
         <li><a href="index.html">Home</a></li>
+        <li><a href="helios.html">Helios</a></li>
         <li><a href="ceramics.html">Ceramics</a></li>
         <li><a href="painting.html">Painting</a></li>
+        <li><a href="charcoal.html">Charcoal</a></li>
         <li><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
   </header>
 
-  <section id="gallery" class="gallery">
-    <h2>Painting Gallery</h2>
-    <div class="gallery-grid">
-      <div class="thumb" data-title="Artwork One" data-img="images/artwork_1.jpg" data-description="Medium: Oil on Canvas<br>Size: 24x36 in">
-        <img src="images/artwork_1.jpg" alt="Artwork One" loading="lazy" />
-        <div class="overlay"><p>Artwork One</p></div>
+  <main class="gallery-background">
+    <section id="gallery" class="gallery">
+      <h2>Painting Gallery</h2>
+      <div class="gallery-grid">
+        <div class="thumb" data-title="Artwork One" data-img="images/artwork_1.jpg" data-description="Medium: Oil on Canvas<br>Size: 24x36 in">
+          <img src="images/artwork_1.jpg" alt="Artwork One" loading="lazy" />
+          <div class="overlay"><p>Artwork One</p></div>
+        </div>
+        <div class="thumb" data-title="Artwork Two" data-img="images/artwork_2.jpg" data-description="Medium: Acrylic<br>Size: 18x24 in">
+          <img src="images/artwork_2.jpg" alt="Artwork Two" loading="lazy" />
+          <div class="overlay"><p>Artwork Two</p></div>
+        </div>
+        <div class="thumb" data-title="Artwork Three" data-img="images/artwork_3.jpg" data-description="Medium: Watercolour<br>Size: 16x20 in">
+          <img src="images/artwork_3.jpg" alt="Artwork Three" loading="lazy" />
+          <div class="overlay"><p>Artwork Three</p></div>
+        </div>
       </div>
-      <div class="thumb" data-title="Artwork Two" data-img="images/artwork_2.jpg" data-description="Medium: Acrylic<br>Size: 18x24 in">
-        <img src="images/artwork_2.jpg" alt="Artwork Two" loading="lazy" />
-        <div class="overlay"><p>Artwork Two</p></div>
-      </div>
-      <div class="thumb" data-title="Artwork Three" data-img="images/artwork_3.jpg" data-description="Medium: Watercolour<br>Size: 16x20 in">
-        <img src="images/artwork_3.jpg" alt="Artwork Three" loading="lazy" />
-        <div class="overlay"><p>Artwork Three</p></div>
-      </div>
-    </div>
-  </section>
-
-  <section class="hero small-hero">
-    <div class="hero-text">
-      <h2>Organic Artistry in Motion</h2>
-      <p>Exploring light, movement, and form through natural framing.</p>
-    </div>
-  </section>
+    </section>
+  </main>
 
   <footer class="site-footer">
     <p>&copy; 2025 Linda Capacci. All rights reserved.</p>
